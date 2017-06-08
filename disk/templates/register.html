@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>disk index </title>
+</head>
+<body>
+    <a href="http://www.baidu.com/" >baidu</a>
+    <h3>upload</h3>
+    <form method="post" enctype="multipart/form-data" >{% csrf_token %}
+        {{uf.as_p}}
+        <input type="submit" value="ok"/>
+    </form>
+</body>
+</html>
